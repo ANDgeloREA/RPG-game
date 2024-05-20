@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPG - Dragon Repeller</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="game">
+      <h1 id="title">DRAGON REPELLER</h1>
+      <section id="stats">
+        <span class="stat"
+          >XP: <strong><span id="xpText">0</span></strong></span
+        >
+        <span class="stat"
+          >Health: <strong><span id="healthText">100</span></strong></span
+        >
+        <span class="stat"
+          >Gold: <strong><span id="goldText">50</span></strong></span
+        >
+      </section>
+      <section id="scene">
+        <img src="./assets/npc/avatar.png" alt="" id="pg" />
+        <img src="./assets/npc/spirit.png" alt="" id="npc" />
+        <img src="./assets/npc/dragon.png" alt="" id="monster" />
+        <img src="./assets/scene/town_square.jpg" alt="" id="background" />
+      </section>
+      <section id="monsterStats">
+        <span class="stat"
+          >Monster Name: <strong><span id="monsterName"></span></strong
+        ></span>
+        <span class="stat"
+          >Health: <strong><span id="monsterHealth"></span></strong
+        ></span>
+      </section>
+      <section id="text">
+        Spirit: "Welcome hero. There is a dragon preventing people from leaving
+        the city. Only you can defeat it! You are in the city square. Where do
+        you want to go? Use the buttons below."
+      </section>
+      <section id="controls">
+        <button id="button1">Go to store</button>
+        <button id="button2">Go to cave</button>
+        <button id="button3">Fight dragon</button>
+      </section>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
